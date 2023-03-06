@@ -1,0 +1,219 @@
+@import './common.css';
+@import './fight.css';
+
+.main-page section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-page table {
+    background-color: rgb(20, 20, 20);
+}
+
+.main-page .select-perso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+}
+
+.main-page .getReady {
+    font-size: 2em;
+    margin: 0;
+}
+
+.main-page .selection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2em 0;
+}
+
+.main-page .selection p {
+    margin: 0 0.5em;
+}
+
+.main-page .img_perso {
+    width: 100%;
+}
+
+.main-page .default_img {
+    width: 120px;
+    height: 120px;
+
+}
+
+.main-page .new-perso {
+    padding: 0 2.5em;
+}
+
+.main-page .new-perso a {
+    display: block;
+    width: 15em;
+}
+
+.main-page .stats {
+    width: 7em;
+}
+
+.main-page .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: fit-content;
+    height: 7.5em;
+    font-size: 1em;
+}
+
+.main-page input,.main-page a {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    width: 100%;
+    font-size: 1em;
+    border-radius: 1em;
+    padding: 0.5em;
+    transition: 0.2s all ease ;
+
+}
+
+.main-page input:hover,.main-page a:hover{
+    background-color: rgb(120, 6, 6);
+    color: rgb(255, 255, 255);
+}
+
+/* Page Création de Personnages */
+
+.create-perso section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 85vh;
+}
+
+.create-perso form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-perso input{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 1em;
+    color: black;
+    width: 300px;
+    font-size: 1em;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    transition: 0.2s all ease ;
+
+}
+
+.create-perso input:hover{
+    background-color: rgb(120, 6, 6);
+    color: rgb(255, 255, 255);
+}
+
+/* Page de modifications d'un personnage */
+
+.change-page body {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.change-page table {
+    background-color: rgb(20, 20, 20);
+}
+
+.change-page h1 {
+    font-size: 2.5em;
+}
+
+.change-page h2 {
+    font-size: 2em;
+}
+
+.change-page input{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 1em;
+    color: black;
+    width: 200px;
+    font-size: 1em;
+    padding: 0.5em;
+    transition: 0.2s all ease ;
+
+}
+
+.change-page input:hover{
+    background-color: rgb(120, 6, 6);
+    color: rgb(255, 255, 255);
+}
+
+/* Page combat */
+
+.fight .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.80);
+    border: 2px solid white;
+    padding: 1em;
+}
+
+.fight .battlefield {
+    background-image: url(../src/mishima_dojo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fight .battlefield .tekken_logo {
+    width: 30%;
+    margin: 0 0.5em;
+}
+
+.fight .card img {
+    border: 1px solid white;
+}
+
+.fight .default_img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+}
+
+.fight .card_stats {
+    text-align: center;
+}
+
+.fight input{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    width: 200px;
+    font-size: 1em;
+    padding: 0.5em;
+    transition: 0.2s all ease ;
+
+}
+
+.fight input:hover{
+    background-color: rgb(120, 6, 6);
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,67 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: tekken;
+    src: url(../src/tarrgetacad.ttf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 1em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.default_img {
+    background-color: black;
+}
+
+tr,th,td {
+    width: 0;
+    padding: 0;
+    margin: 0;
+}
+
+td {
+    text-align: center;
+}
+
+.tekken_font {
+    font-family: tekken;
+    color: rgb(240, 240, 240);
+    font-size: 1.5em;
+}
+
+.black {
+    color: black;
+}
+
+nav a {
+    position: fixed;
+    z-index: 2;
+    top: 2%;
+    left: 1%;
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    width: 100px;
+    font-size: 1em;
+    border-radius: 1em;
+    padding: 0.5em;
+    transition: 0.2s all ease ;
+
+}
+
+nav a:hover{
+    background-color: rgb(120, 6, 6);
+    color: rgb(255, 255, 255);
+}
